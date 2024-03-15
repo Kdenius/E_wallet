@@ -18,13 +18,13 @@ public class UserController {
 	@Autowired 
 	EntityManager em;
 	
-	@GetMapping("/user")
-	@Transactional
-	public void saveUser(@RequestBody User theuser) {
-		System.out.println(theuser);
-		em.merge(theuser);
-		System.out.println("its working fine!");
-	}
+//	@GetMapping("/user")
+//	@Transactional
+//	public void saveUser(@RequestBody User theuser) {
+//		System.out.println(theuser);
+//		em.merge(theuser);
+//		System.out.println("its working fine!");
+//	}
 //	@PostMapping("/user")
 //	public User saveUser(@RequestBody User theuser) {
 //		em.merge(theuser);
